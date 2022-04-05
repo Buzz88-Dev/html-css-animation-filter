@@ -2,30 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
-  }
+}
 
-  .sky {
-      width: 100vw;
-      height: 100vh;
-      background-color: aqua;
-  }
+.sky {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
 
-  @keyframes nevicata {
-      0% { top: -10%; }
-      100% { top: 100%;}
-  }
+@keyframes nevicata {
+    0% { top: -10%; }
+    100% { top: 100%;}
+}
 
-  @keyframes oscillazione {
+@keyframes oscillazione {
    0% {transform: translateX(0);}   /* sposto un oggetto da sinistra a destra */
    50% {transform: translateX(50px);}
    100% {transform: translateX(0);}
 }
 
-  .snow {
+.fiocco {
     position: absolute;
     font-size: 50px;
     color: white;
     animation-name: nevicata, oscillazione;
     animation-duration: 8s, 3s;
     animation-iteration-count: infinite, infinite;
-  }
+}
+
+.sky .fiocco:nth-child(2) {
+    left: 120px;
+}
+
+.sky .fiocco:nth-child(3) {
+    left: 210px;
+}
+
+.sky .fiocco:nth-child(4) {
+    left: 300px;
+}
+
+.sky .fiocco:nth-child(5) {
+    left: 450px;
+}
