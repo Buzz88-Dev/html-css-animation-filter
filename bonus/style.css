@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+  }
+
+  .sky {
+      width: 100vw;
+      height: 100vh;
+      background-color: aqua;
+  }
+
+  @keyframes nevicata {
+      0% { top: -10%; }
+      100% { top: 100%;}
+  }
+
+  .snow {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    animation-name: nevicata;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
