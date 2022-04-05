@@ -36,15 +36,89 @@
     margin-bottom: 75px;
 }
 
+
+
 /* Esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
     background-color: black;
-    transition: 2s;
+    transition: 3s;
 }
 
 .ex-1-square:hover {
     background-color: red;
 }
 
+
+
+/* Esercizio 2 */
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 3s;
+}
+
+.ex-2-square:active {  /* pesuedo-classe active: tengo premuto e il div diventa un rettangolo */
+    width: 100%;
+    background-color: red;
+}
+
+
+
+/* Esercizio 3 */
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+
+/* Esercizio 4 */
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 3s;
+}
+
+.ex-4-square:hover { 
+    opacity: 0;
+}
+
+
+
+/* Esercizio 5 */
+.ex-5-square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 3s;
+}
+
+.ex-5-square:hover {
+    width: 150px;
+    height: 150px;
+}
+
+.ex-5-square:active {
+    width: 50px;
+    height: 50px;
+}
+
+/*
+.ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(.5);
+}
+*/
