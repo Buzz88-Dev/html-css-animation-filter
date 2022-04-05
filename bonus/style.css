@@ -15,11 +15,17 @@
       100% { top: 100%;}
   }
 
+  @keyframes oscillazione {
+   0% {transform: translateX(0);}   /* sposto un oggetto da sinistra a destra */
+   50% {transform: translateX(50px);}
+   100% {transform: translateX(0);}
+}
+
   .snow {
     position: absolute;
     font-size: 50px;
     color: white;
-    animation-name: nevicata;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-name: nevicata, oscillazione;
+    animation-duration: 8s, 3s;
+    animation-iteration-count: infinite, infinite;
   }
