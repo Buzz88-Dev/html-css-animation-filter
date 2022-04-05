@@ -122,3 +122,51 @@
     transform: scale(.5);
 }
 */
+
+
+
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+
+
+/* Esercizio 7 */
+.ex-7-img:hover {
+    transition: 3s;
+    filter: grayscale(100%);
+}
+
+/*
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(.6) sepia(.5);
+}
+*/
+
+
+
+/* Esercizio 8 */
+.ex-8-img:hover {
+    filter: grayscale(100%);
+    filter: sepia(80%);
+    border-radius: 10%;
+}
+
+
+
+/* Esercizio 9 */
+.ex-9-img:active {
+    transition: 4s;
+    filter: grayscale(100%);
+    filter: sepia(80%);
+    border-radius: 10%;
+    transform: scale(0.5);
+}
+
+
+
+/* Esercizio 10 */
